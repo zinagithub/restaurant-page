@@ -1,0 +1,12 @@
+body {
+	background: gray;
+	}
+#content {
+	width : 80%;
+	height: auto;
+	margin : 0 auto;
+	
+}
+#top-bar {
+	display : flex;
+}
