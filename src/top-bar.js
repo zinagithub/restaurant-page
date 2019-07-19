@@ -1,6 +1,4 @@
-
-
-module.exports = function (id,i){
+var addTopBar = function (id,i){
   const content = document.getElementById('content');
   const newDiv = document.createElement("div");
   newDiv.id = id;
@@ -8,11 +6,10 @@ module.exports = function (id,i){
   newDiv.style.height= "200px";
   newDiv.style.background = "blue";
   content.appendChild(newDiv);
-
-
-var elem = document.createElement("img");
-elem.setAttribute("src", i);
-elem.setAttribute("height", "200px");
-elem.setAttribute("width", "100%");
-newDiv.appendChild(elem);
+  const elem = document.createElement("img");
+  elem.setAttribute("src", i);
+  elem.setAttribute("height", "200px");
+  elem.setAttribute("width", "100%");
+  newDiv.appendChild(elem);
 }
+export default addTopBar

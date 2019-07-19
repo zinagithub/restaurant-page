@@ -8,5 +8,6 @@ module.exports = function (){
 					"<li>Lorem ipsum dolor sit...............100$</li>"+
 					"<li>Lorem ipsum dolor sit...............100$</li>"+
 					"<li>Lorem ipsum dolor sit...............100$</li>"+
+					"<li>Lorem ipsum dolor sit...............100$</li>"+
 					"</ul></div>"
 }

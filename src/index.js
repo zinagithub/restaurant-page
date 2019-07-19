@@ -1,11 +1,9 @@
-import './style.css';
-import Image from './main.jpg';
+import './assets/style/style.css';
+import Image from './assets/images/main.jpg';
 
-var addTopBar = require('./top-bar.js');
-var addMenu   = require('./bar-menu.js');
- 
+import addTopBar from './top-bar.js';
+import addMenu   from './bar-menu.js'; 
+
 addTopBar('top-bar',Image);
 addMenu('top-menu',["Home","Menu","About","Contact"])
-//addtext()ajouter un text sur l'image
-//ajouter un menu
 
