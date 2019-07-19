@@ -1,19 +1,11 @@
 import './style.css';
-import Icon from './index.jpeg';
+import Image from './main.jpg';
 
-function component() {
-    //const element = document.createElement('div');
+var addTopBar = require('./top-bar.js');
+var addMenu   = require('./bar-menu.js');
+ 
+addTopBar('top-bar',Image);
+addMenu('top-menu',["Home","Menu","About","Contact"])
+//addtext()ajouter un text sur l'image
+//ajouter un menu
 
-
-  // Add the image to our existing div.
-   /*const myIcon = new Image();
-   myIcon.src = Icon;
-   myIcon.width = 
-
-   element.appendChild(myIcon);*/
-   //const elm = document.getElementsByTagName("body");
-   //elm.background = "orange"
-    //return elm;
-  }
-  component()
-  //document.body.appendChild(component());
