@@ -4,11 +4,11 @@
 # Assignment: https://www.theodinproject.com/courses/javascript/lessons/restaurant-page
 # Author: <a href="https://github.com/zinagithub">Talaa Zina</a>
 
-### Prerequisities
+##Prerequisities
 	node 
 	npm
 	webpack
 
-##### Clone project
-```
-$ git clone https://github.com/zinagithub/restaurant-page.git
+## Clone project
+   git clone https://github.com/zinagithub/restaurant-page.git
+
