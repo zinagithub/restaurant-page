@@ -1,0 +1,45 @@
+body {
+	background: #DDD;
+	}
+#content {
+	width : 80%;
+	height: auto;
+	margin : 0 auto;
+	
+}
+#itemDiv{
+  width : 100%;
+  background: #900;
+  height: 330px;
+  margin : 20px auto;
+  border : 1px solid white;
+  border-radius: 15px
+}
+.link{
+  padding: 4px 20px ;
+  background: #900 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  border-radius: 15px;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+.link:hover, .link :focus, .link:active {
+  background: #c00/*#900 */;
+  text-decoration: underline ;
+}
+#home , #carte , #contact, #about{
+  color : white;
+  margin : 20px 30px;
+  text-align: center;
+}
+#home p {
+  line-height: 30px;
+}
+#carte ul li {
+  padding-bottom: 20px;
+}
+
+
