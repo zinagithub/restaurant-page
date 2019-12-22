@@ -2,6 +2,7 @@
  The Odin Project - JavaScript project: Restaurant Page
  
  Assignment: https://www.theodinproject.com/courses/javascript/lessons/restaurant-page
+ 
  Author: <a href="https://github.com/zinagithub">Talaa Zina</a>
 
 # Prerequisities
